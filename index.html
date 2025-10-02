@@ -4,42 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ME</title>
-    <!-- <style>
-        .content-wrapper{
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 150px;
-            margin-top: 50px;
-        }
-        .text-content{
-            flex: 100;
-            min-width: 200px;
-        }
-        a{
-            color: #CD1C18;
-        }
-    </style> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body style="background-color: #fffff0;">
     <center>
-        <font face="Times New Roman" size="5" color="#CD1C18">
-                <h1>katsadze david</h1>
-        </font>
+                <h1 class="person_name">katsadze david</h1>
         <div>
             <h1></h1>
-            <img src="my_photo.jpg" alt="my real photo" width="700" height="400" loading="lazy">
+            <img src="files/my_photo.jpg" alt="my real photo" width="700" height="400" loading="lazy">
         </div>
     </center>
     <center>
         <div>
             <figure>
-                <font face="Times New Roman" size="5" color="#CD1C18">
-                    <h5>my fav music</h5>
+                <font class="person_name">
+                    <h3>my fav music</h3>
+                    
                 </font>
-                <audio controls src="/music.mp3"></audio>
+                <audio controls src="files/music.mp3"></audio>
             </figure>
         </div>
     </center>
+    <div class="content-wrapper">
+        <div class="text-content">
+            <h2>about me:</h2>
+            <p>Hello! I'm a first year student at NISTU MISIS. I am very happy to be here and I am interested in where this peculiar adventure will lead. I am always open to learning new things.</p>
+        </div>
+        <div class="text-content">
+            <h2>languages:</h2>
+            <ul>
+                <li>already know: python and c#</li>
+                <li>studying now: golang, wanna do some backend stuff</li>
+                <li>old dream: now im studying frontend development which im very exited because it was my dream</li>
+            </ul>
+        </div>
+        <div class="text-content">
+            <h2>dm me:</h2>
+            <a href="https://t.me/astracelebrities"> tg</a>
+        </div>
+    </div>
 </body>
 </html>

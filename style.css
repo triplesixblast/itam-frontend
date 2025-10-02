@@ -1,0 +1,24 @@
+.person_name{
+    color: #CD1C18; 
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.text-content{
+    color: #CD1C18;
+    font-family: "Roboto", sans-serif;
+    font-size: 300;
+    font-weight: 400;
+    flex: 100;
+    min-width: 200px;
+}
